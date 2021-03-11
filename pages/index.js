@@ -12,7 +12,7 @@ export default function Home() {
       <div className='byline' style={{ marginRight: '0' }}>
         <button
           onClick={() =>
-            window.location.replace('http://start.clinicbook.org/register')
+            window.location.replace('https://do.clinicbook.org/register')
           }
           className={styles.button}
         >
@@ -20,7 +20,7 @@ export default function Home() {
         </button>
         <span>
           Already have account?{' '}
-          <a style={{ color: 'tomato' }} href='http://start.clinicbook.org'>
+          <a style={{ color: 'tomato' }} href='https://do.clinicbook.org'>
             login here
           </a>
         </span>
@@ -28,7 +28,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href='http://start.clinicbook.org'>clinicbook.org</a>
+          Welcome to <a href='https://do.clinicbook.org'>clinicbook.org</a>
         </h1>
 
         <p className={styles.description}>
@@ -36,7 +36,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href='http://start.clinicbook.org' className={styles.card}>
+          <a href='https://do.clinicbook.org' className={styles.card}>
             <h3>Start a happy clinic day</h3>
             <Image
               src='/2323.jpg'
@@ -45,7 +45,7 @@ export default function Home() {
               height={500}
             />
           </a>
-          <a href='http://start.clinicbook.org' className={styles.card}>
+          <a href='https://do.clinicbook.org' className={styles.card}>
             <h3>Stay successful</h3>
             <Image
               src='/face.jpeg'
@@ -54,7 +54,7 @@ export default function Home() {
               height={500}
             />
           </a>
-          <a href='http://start.clinicbook.org' className={styles.card}>
+          <a href='https://do.clinicbook.org' className={styles.card}>
             <h3>Start for free</h3>
             <Image
               src='/free.jpg'
