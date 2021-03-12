@@ -16,7 +16,7 @@ export default function Home() {
           }
           className={styles.button}
         >
-          <span>Create free account </span>
+          <span>Create free account. </span>
         </button>
         <span>
           Already have account?{' '}
