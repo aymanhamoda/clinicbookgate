@@ -1,14 +1,11 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Meta from './components/Meta'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>ClinicBook.org</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <Meta />
       <div className='byline' style={{ marginRight: '0' }}>
         <button
           onClick={() =>
